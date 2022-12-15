@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="../css/response.css">
     <script src="../js/index.js" defer></script>
     <script src="../js/mobile-navbar.js"></script>
-    <title>Home | Portifólio | Pedro Kunz</title>
+    <title>Portfólio | Pedro Kunz</title>
 </head>
 <body>
     <header id="header">
+        <a href="index.html"><h1>Portfólio</h1></a>
             <nav id="nav">
               <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburger"></span>
               </button>
               <ul id="menu" role="menu">
-                <li><a id="navainative" href="../index.html">Home</a></li>
-                <li><a href="pages/projetos.html">Projetos</a></li>
-                <li><a href="pages/contato.html">Contato</a></li>
+                <li><a onclick="fechar()" href="#sobre">Sobre</a></li>
+                <li><a onclick="fechar()" href="#projetos">Projetos</a></li>
+                <li><a onclick="fechar()" href="#habilidades">Habilidades</a></li>
+                <li><a onclick="fechar()" href="#contato">Contato</a></li>
               </ul>
             </nav>
     </header>
