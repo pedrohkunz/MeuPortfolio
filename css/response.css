@@ -14,10 +14,37 @@
     #titulo{
         display: flex;
         justify-content: center;
-        margin-top: 15rem;
-        margin-bottom: 15rem;
+        padding-top: 35rem;
+        padding-bottom: 45rem;
     }
 
+    #titulo>article>P{
+        font-size: 3rem;
+        color: #77FFC0;
+        font-family: 'Poppins' , sans-serif;
+        font-weight: 200;
+     
+    }
+    
+    #titulo>article>p>span{
+        font-size: 2.5rem;
+        color: #0D0E12;
+        background-color: #77FFC0;
+        font-family: 'Poppins' , sans-serif;
+        font-weight: 100;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.9375rem;
+    }
+    
+    #titulo>article>div>h2{
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        display: block;
+        margin: 0 auto;
+    }
     #sobre{
         display: flex;
         flex-direction: column;
@@ -84,7 +111,7 @@
       }
 
       #nav.active #menu {
-        height: 1000%;
+        height: 1500%;
         visibility: visible;
         overflow-y: auto;
       }

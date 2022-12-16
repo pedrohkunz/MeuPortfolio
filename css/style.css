@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+@font-face {
+    font-family: "Elianto-Regular";
+    src: url("../fonts/Elianto-Regular.ttf");
+  }
+
 /* Resetar CSS */
 
 *{
@@ -62,7 +67,7 @@ nav ul li a::after{
     content: " ";
     width: 0%;
     height: 0.125rem;
-    background-color: #FFFFFF;
+    background-color: #fff;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -92,7 +97,7 @@ ul {
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     background-color: #0D0E12;
     position: fixed;
     width: 100%;
@@ -101,14 +106,6 @@ ul {
 
   #header a{
     text-decoration: none;
-  }
-
-  #header>a>h1 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: 300;
-    font-size: 2rem;
-    transition: 0.5s;
   }
 
   #header>a>h1:hover {
@@ -145,12 +142,14 @@ ul {
 #titulo{
     display: flex;
     justify-content: center;
-    margin-top: 15rem;
-    margin-bottom: 8rem;
+    padding-top: 20rem;
+    padding-bottom: 30rem;
+    background-image: url(../img/fundo.png);
+    background-position: 2%;
 }
 
 #titulo>article>P{
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #77FFC0;
     font-family: 'Poppins' , sans-serif;
     font-weight: 200;
@@ -158,7 +157,7 @@ ul {
 }
 
 #titulo>article>p>span{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #0D0E12;
     background-color: #77FFC0;
     font-family: 'Poppins' , sans-serif;
@@ -169,7 +168,7 @@ ul {
 }
 
 #titulo>article>div>h2{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: white;
     font-weight: 100;
