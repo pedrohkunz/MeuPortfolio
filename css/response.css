@@ -54,7 +54,6 @@
 
     #cont-paragrafo>p{
         padding-bottom: 5rem;
-        font-size: 14px;
     }
 
     #titulo-subtitulo>h2{
@@ -69,10 +68,12 @@
         display: block;
         margin: 0 auto;
         object-fit: cover;
-        
     }
 
-
+    #cont-paragrafo>p{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
 
     #img-footer>a>img{
         width: 30px;
@@ -173,28 +174,6 @@
             padding-bottom: 3rem;
         }
 
-        #projetos>article{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #projetos>article>div{
-            margin-bottom: 3rem;
-        }
-
-        #projetos>article>div>div>h1{
-            font-size: 1.5rem;
-        }
-        
-        #projetos>article>div>div>h3{
-            font-size: 1.4rem;
-        }
-        
-        #projetos>article>div>div>p{
-            font-size: 1.3rem;
-            padding-top: 1rem;
-        }
       
 }
 
@@ -213,7 +192,6 @@
 
     #cont-paragrafo>p{
         padding-bottom: 5rem;
-        font-size: 16px;
     }
 
     #titulo-subtitulo>h2{
@@ -253,25 +231,7 @@
         font-size: 18px;
     }
 
-    #projetos>article{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #projetos>article>div{
-        margin-bottom: 3rem;
-    }
-
-    #projetos>article>div>div>h1{
-        font-size: 1.5rem;
-    }
-    
-    #projetos>article>div>div>h3{
-        font-size: 1.4rem;
-    }
-    
-    #projetos>article>div>div>p{
+    #cont-paragrafo>p{
         font-size: 1.3rem;
         padding-top: 1rem;
     }
