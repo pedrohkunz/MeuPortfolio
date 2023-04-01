@@ -2,7 +2,7 @@
 
 🟦 Utlizando HTML, CSS e Javascript.
 
-Em fase de desenvolvimento..
+Projeto em desenvolvimento.
 
 # Link do site:
 
