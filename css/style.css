@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-@font-face {
-    font-family: "Elianto-Regular";
-    src: url("../fonts/Elianto-Regular.ttf");
-  }
-
 /* Resetar CSS */
 
 *{
@@ -50,6 +45,7 @@ nav{
     justify-content: space-around;
     padding-right: 1rem;
     padding-top: 0.3rem;
+
 }
 
 nav ul li a{
@@ -144,7 +140,7 @@ ul {
     justify-content: center;
     padding-top: 20rem;
     padding-bottom: 30rem;
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/fundo.webp);
     background-position: 2%;
 }
 
@@ -234,9 +230,9 @@ ul {
     margin-top: 3rem;
     font-weight: 550;
     font-size: 1.5rem;
-    border-bottom: solid #77FFC0;
+    border-bottom: solid #05e07a;
     border-width: 0.125rem;
-    width: 55%;
+    width: 45%;
     margin-bottom: 1rem;
     white-space: nowrap;
 }
@@ -245,12 +241,14 @@ ul {
     font-family: 'Poppins', sans-serif;
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-bottom: 10rem;
 }
 
 #cont-paragrafo{
     display: flex;
     margin-left: 10rem;
-    margin-right: 5rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
 }
 
 #sobre>img{
@@ -263,12 +261,14 @@ ul {
     transition: 0.5s ease-in-out;
 }
 
-#sobre>img:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
+
+
+/* Projetos */
+
+#projetos{
+    background-color: #d6d6d6;
 }
+
 
 /* Footer */
 
