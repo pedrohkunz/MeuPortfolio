@@ -198,26 +198,26 @@
             padding: none;
         }
         
-        #icons-contato>div>div{
+        #icons-contato>div>a>div{
             margin-bottom: 5rem;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         
-        #icons-contato>div>div>img{
+        #icons-contato>div>a>div>img{
             height: 50px;
             width: 50px;
         }
         
-        #icons-contato>div>p{
+        #icons-contato>div>a>div>p{
             padding-top: 0.5rem;
             font-size: 1.5rem;
             font-weight: 600;
             font-family: 'Poppins' , sans-serif;
         }
         
-        #icons-contato>div>span{
+        #icons-contato>div>a>div>span{
             font-family: 'Poppins' , sans-serif;
             font-size: 1rem;
         }
@@ -310,26 +310,26 @@
         padding: none;
     }
     
-    #icons-contato>div>div{
+    #icons-contato>div>a>div{
         margin-bottom: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    #icons-contato>div>div>img{
+    #icons-contato>div>a>div>img{
         height: 100px;
         width: 100px;
     }
     
-    #icons-contato>div>p{
+    #icons-contato>div>a>div>p{
         padding-top: 0.5rem;
         font-size: 2rem;
         font-weight: 600;
         font-family: 'Poppins' , sans-serif;
     }
     
-    #icons-contato>div>span{
+    #icons-contato>div>a>div>span{
         font-family: 'Poppins' , sans-serif;
         font-size: 1.5rem;
     }
@@ -451,13 +451,15 @@
         width: 100px;
     }
     
-    #icons-contato>div>p{
+    #icons-contato>div>a>div>p{
         padding-top: 0.5rem;
-        font-weight: 600;
+        font-weight: 500;
         font-family: 'Poppins' , sans-serif;
+        font-size: 1.5rem;
     }
     
-    #icons-contato>div>span{
+    #icons-contato>div>a>div>span{
         font-family: 'Poppins' , sans-serif;
+        font-size: 1.1rem;
     }
 }

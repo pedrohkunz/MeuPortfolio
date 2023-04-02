@@ -293,24 +293,33 @@ ul {
    
 }
 
-#icons-contato>div{
+#icons-contato>div>a>div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.3s ease-in-out;
 }
 
-#icons-contato>div>img{
+#icons-contato>div>a>div:hover{
+    opacity: 0.5;
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+#icons-contato>div>a>div>img{
     height: 100px;
     width: 100px;
 }
 
-#icons-contato>div>p{
+#icons-contato>div>a>div>p{
     padding-top: 0.5rem;
     font-weight: 600;
     font-family: 'Poppins' , sans-serif;
 }
 
-#icons-contato>div>span{
+#icons-contato>div>a>div>span{
     font-family: 'Poppins' , sans-serif;
 }
 
