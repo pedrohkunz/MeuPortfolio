@@ -263,10 +263,55 @@ ul {
 
 
 
-/* Projetos */
+/* Contato */
 
-#projetos{
+#contato{
     background-color: #d6d6d6;
+    padding: none;
+}
+
+#titulo-subtitulo-contato{
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-subtitulo-contato>h2{
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 1rem;
+    font-size: 34px;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+}
+
+#icons-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+   
+}
+
+#icons-contato>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icons-contato>div>img{
+    height: 100px;
+    width: 100px;
+}
+
+#icons-contato>div>p{
+    padding-top: 0.5rem;
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+}
+
+#icons-contato>div>span{
+    font-family: 'Poppins' , sans-serif;
 }
 
 
